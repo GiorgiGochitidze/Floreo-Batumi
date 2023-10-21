@@ -1,5 +1,6 @@
 import "./App.css";
 import Home from "./Georgian-Version/Home.jsx";
+import RestaurantImg from './assets/restaurant-interior.jpg'
 
 const App = () => {
   return (
@@ -10,8 +11,11 @@ const App = () => {
           <p>მენიუ</p>
           <p>გალერეა</p>
           <p>სიახლეები და აქციები</p>
+          <p>კონტაქტი</p>
         </nav>
       </header>
+
+      <img className="restaurant-img" src={RestaurantImg} alt="restaurant image" />
 
       <Home />
 
